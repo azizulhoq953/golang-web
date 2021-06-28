@@ -1,3 +1,12 @@
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
 
 *{
 
@@ -14,6 +23,7 @@ font-family: 'Zilla Slab', serif;
     height:100vh;
     background: linear-gradient(57deg,#00c6a7,#1e4d92);
     clip-path:polygon(0% 0%, 100% 0%, 100% 75%, 0 100%);
+    
 
 }
 
@@ -41,7 +51,7 @@ height:100px;
     text-align: center;
     
     padding: 0% 7% ;
-  
+    
 
     
 }
@@ -100,4 +110,125 @@ section{
 .rightside button:hover{
 
     background: linear-gradient(57deg,#1e4d92,#00c6a7);
+}
+
+
+/*Copy to Loruki Page */
+
+
+:root{
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --success-color:#5cb85c;
+    --error-color:#d9534f;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.stats-heading{
+    max-width: 500px;
+    margin: auto;
+
+}
+
+
+.stats .grid h3{
+    font-size: 35px;
+}
+
+.stats .grid p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-center-1 .lg{
+
+    background: linear-gradient(95deg,#00c6a7,#1e4d92 );
+
+}
+
+
+.cli .card-1{
+    text-align: center;
+    background-color: rgb(115, 31, 42);
+    color:white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+    border-top-left-radius: 36%;
+    border-bottom-right-radius: 36%;
+}
+
+
+/* cli */
+.cli .card {
+    border-top-left-radius: 36%;
+    border-bottom-right-radius: 36%;
+}
+.cli .grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+/* Cloud */
+.cloud .grid{
+    grid-template-columns: 4fr 3fr;
+}
+
+/* Languages */
+
+.languages{
+
+    background: linear-gradient(57deg,#2d17a5,#693a0e);
+}
+
+ .languages .Supported{
+
+   
+    line-height: 100px;
+    padding-left: 50px;
+    
+}
+
+.Supported{
+
+    width:50%;
+    height:100px;
+   color: white;
+
+}
+
+.languages .flex{
+    flex-wrap: wrap;
+}
+
+.languages .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.languages .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .card:hover{
+    transform: translateY(-15px);
+}
+
+
+/* Footer */
+
+.footer .social a{
+    margin: 0 10px;
 }
